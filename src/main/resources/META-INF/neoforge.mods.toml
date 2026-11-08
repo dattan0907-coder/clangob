@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "goblin_clan"
+version = "1.0.0"
+displayName = "Goblin Clan"
+description = '''
+Goblin, Goblin Scout, Goblin Shaman and Goblin Chieftain mobs, animated with GeckoLib.
+'''
+
+[[dependencies.goblin_clan]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.220,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.goblin_clan]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.goblin_clan]]
+modId = "geckolib"
+type = "required"
+versionRange = "[4.7,)"
+ordering = "AFTER"
+side = "BOTH"

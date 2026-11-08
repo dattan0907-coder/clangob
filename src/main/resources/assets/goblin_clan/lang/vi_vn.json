@@ -1,0 +1,10 @@
+{
+  "entity.goblin_clan.goblin": "Goblin",
+  "entity.goblin_clan.goblin_scout": "Goblin Trinh Sát",
+  "entity.goblin_clan.goblin_shaman": "Goblin Pháp Sư",
+  "entity.goblin_clan.goblin_chieftain": "Thủ Lĩnh Goblin",
+  "item.goblin_clan.goblin_spawn_egg": "Trứng Sinh Goblin",
+  "item.goblin_clan.goblin_scout_spawn_egg": "Trứng Sinh Goblin Trinh Sát",
+  "item.goblin_clan.goblin_shaman_spawn_egg": "Trứng Sinh Goblin Pháp Sư",
+  "item.goblin_clan.goblin_chieftain_spawn_egg": "Trứng Sinh Thủ Lĩnh Goblin"
+}
