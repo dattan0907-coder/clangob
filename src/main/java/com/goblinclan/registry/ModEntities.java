@@ -5,6 +5,7 @@ import com.goblinclan.entity.GoblinChieftainEntity;
 import com.goblinclan.entity.GoblinEntity;
 import com.goblinclan.entity.GoblinScoutEntity;
 import com.goblinclan.entity.GoblinShamanEntity;
+import com.goblinclan.entity.ShrekEntity;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -34,4 +35,9 @@ public class ModEntities {
             ENTITIES.register("goblin_chieftain", () ->
                     EntityType.Builder.of(GoblinChieftainEntity::new, MobCategory.MONSTER)
                             .sized(1.2F, 2.6F).clientTrackingRange(10).build("goblin_chieftain"));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<ShrekEntity>> SHREK =
+            ENTITIES.register("shrek", () ->
+                    EntityType.Builder.of(ShrekEntity::new, MobCategory.MONSTER)
+                            .sized(1.3F, 2.4F).clientTrackingRange(10).build("shrek"));
 }

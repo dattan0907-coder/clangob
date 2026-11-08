@@ -6,5 +6,7 @@
   "item.goblin_clan.goblin_spawn_egg": "Trứng Sinh Goblin",
   "item.goblin_clan.goblin_scout_spawn_egg": "Trứng Sinh Goblin Trinh Sát",
   "item.goblin_clan.goblin_shaman_spawn_egg": "Trứng Sinh Goblin Pháp Sư",
-  "item.goblin_clan.goblin_chieftain_spawn_egg": "Trứng Sinh Thủ Lĩnh Goblin"
+  "item.goblin_clan.goblin_chieftain_spawn_egg": "Trứng Sinh Thủ Lĩnh Goblin",
+  "entity.goblin_clan.shrek": "Shrek",
+  "item.goblin_clan.shrek_spawn_egg": "Trứng Sinh Shrek"
 }

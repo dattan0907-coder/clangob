@@ -4,6 +4,7 @@ import com.goblinclan.entity.GoblinChieftainEntity;
 import com.goblinclan.entity.GoblinEntity;
 import com.goblinclan.entity.GoblinScoutEntity;
 import com.goblinclan.entity.GoblinShamanEntity;
+import com.goblinclan.entity.ShrekEntity;
 import com.goblinclan.registry.ModEntities;
 import com.goblinclan.registry.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,7 @@ public class GoblinClanMod {
         event.put(ModEntities.GOBLIN_SCOUT.get(), GoblinScoutEntity.createAttributes().build());
         event.put(ModEntities.GOBLIN_SHAMAN.get(), GoblinShamanEntity.createAttributes().build());
         event.put(ModEntities.GOBLIN_CHIEFTAIN.get(), GoblinChieftainEntity.createAttributes().build());
+        event.put(ModEntities.SHREK.get(), ShrekEntity.createAttributes().build());
     }
 
     private void buildCreativeTabs(BuildCreativeModeTabContentsEvent event) {
@@ -37,6 +39,7 @@ public class GoblinClanMod {
             event.accept(ModItems.GOBLIN_SCOUT_SPAWN_EGG.get());
             event.accept(ModItems.GOBLIN_SHAMAN_SPAWN_EGG.get());
             event.accept(ModItems.GOBLIN_CHIEFTAIN_SPAWN_EGG.get());
+            event.accept(ModItems.SHREK_SPAWN_EGG.get());
         }
     }
 }

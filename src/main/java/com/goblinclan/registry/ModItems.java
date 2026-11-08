@@ -24,4 +24,8 @@ public class ModItems {
     public static final DeferredItem<DeferredSpawnEggItem> GOBLIN_CHIEFTAIN_SPAWN_EGG =
             ITEMS.register("goblin_chieftain_spawn_egg", () ->
                     new DeferredSpawnEggItem(ModEntities.GOBLIN_CHIEFTAIN, 0x3E5A2A, 0xA83232, new Item.Properties()));
+
+    public static final DeferredItem<DeferredSpawnEggItem> SHREK_SPAWN_EGG =
+            ITEMS.register("shrek_spawn_egg", () ->
+                    new DeferredSpawnEggItem(ModEntities.SHREK, 0x7DA83A, 0x8A6A3A, new Item.Properties()));
 }

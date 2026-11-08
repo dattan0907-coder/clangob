@@ -23,5 +23,6 @@ public class ClientEvents {
                 ctx -> new GoblinRenderer<GoblinShamanEntity>(ctx, "goblin_shaman", false));
         event.registerEntityRenderer(ModEntities.GOBLIN_CHIEFTAIN.get(),
                 ctx -> new GoblinRenderer<GoblinChieftainEntity>(ctx, "goblin_chieftain", true));
+        event.registerEntityRenderer(ModEntities.SHREK.get(), ShrekRenderer::new);
     }
 }

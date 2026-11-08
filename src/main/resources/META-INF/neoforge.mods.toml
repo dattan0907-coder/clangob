@@ -7,7 +7,7 @@ modId = "goblin_clan"
 version = "1.0.0"
 displayName = "Goblin Clan"
 description = '''
-Goblin, Goblin Scout, Goblin Shaman and Goblin Chieftain mobs, animated with GeckoLib.
+Goblin, Goblin Scout, Goblin Shaman, Goblin Chieftain and Shrek mobs, animated with GeckoLib.
 '''
 
 [[dependencies.goblin_clan]]
